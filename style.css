@@ -17,8 +17,8 @@ body {
     font-family: "Jost", sans-serif;
 }
 
-html {
-    font-size: 100%;
+html, body {
+    font-size: 62.5%;
     height: 100%;
 }
 
@@ -28,7 +28,7 @@ html {
 
 .box {
     width: 25vw;
-    height: 60vh;
+    height: 70vh;
     border-radius: 0.5rem;
     box-shadow: 0 0.2rem 3rem rgba(0, 0, 0, 0.2);
     background: #a5bbdd;
@@ -42,7 +42,7 @@ html {
 .wave {
     opacity: 0.3;
     position: absolute;
-    top: 120%;
+    top: 80%;
     left: 50%;
     background: #fff;
     width: 50rem;
@@ -112,10 +112,10 @@ html {
 
 @keyframes rotates {
     from {
-        transform: translateX(-0.5rem);
+        transform: translateX(1.5rem);
     }
     from {
-        transform: translateX(0.5rem);
+        transform: translateX(2.3rem);
     }
 }
 
@@ -143,7 +143,7 @@ html {
 }
 
 #weathercon {
-    height: 35%;
+    height: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
